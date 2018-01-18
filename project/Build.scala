@@ -5,9 +5,9 @@ import sbtrelease._
 
 object BuildSettings {
   val buildOrganization = "com.github.gilbertw1"
-  val buildVersion      = "0.2.2"
+  val buildVersion      = "0.2.2.SUMO1"
   val buildScalaVersion = "2.12.3"
-  val buildCrossScalaVersions = Seq("2.11.11", "2.12.3")
+  val buildCrossScalaVersions = Seq("2.11.12", "2.12.3")
 
   val buildSettings = Seq (
     organization       := buildOrganization,
